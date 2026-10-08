@@ -1,0 +1,154 @@
+*{
+  margin: 0%;
+  background: rgb(0,0,0,0.5);
+
+}
+.main{
+  height: 100vh;
+  width: 100%;
+
+}
+.header{
+  background-color: "blue";
+  height: 10vh;
+  min-width: 100%;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+
+
+
+.icon-menu{
+  display: none;
+}
+
+
+@media screen and (min-width:768px) {
+  
+  .menulist{
+  display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  .header{
+
+  justify-content: space-between;
+  font-size: 10px;
+
+}
+
+.icon-menu{
+  display:block;
+  align-self: center;
+}
+  
+.list li{
+  display: none;
+}
+.menulist{
+
+  list-style: none;
+  /* display: none;
+  flex-direction: column;
+  justify-content:space-around;
+  align-items: flex-end;
+  background: white;
+  font-size: 10px; */
+  z-index: 1;
+  position: absolute;
+  right: 40px;
+  
+}
+
+
+}
+
+
+.logo{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.list{
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 15px;
+  
+}
+.body{
+  height: 80vh;
+  width: 100%;
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./assets/theyyam.jpg);
+  background-size:contain ;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+.welcome{
+  /* color: white; */
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  
+  
+}
+.section{
+  min-height: 70vh;
+  background: transparent;
+  min-width: 100%;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  
+}
+.button{
+  color: white;
+  background: transparent;
+}
+.section1{
+  display: flex;
+  justify-content: center;
+  
+}
+.section2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+
+}
+.button{
+  background: transparent;
+  font-size: 50px;
+
+}
+
+
+.light-main{
+color: black;
+background-color: white;
+}
+
+.dark-main{
+color:white;
+background-color:black;
+}
+
+
+.light-body{
+ 
+  background: linear-gradient(rgba(255, 254, 254, 0.5),rgba(245, 239, 239, 0.966)),url(./assets/theyyam.jpg);
+  background-size:contain ;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: black;
+}
