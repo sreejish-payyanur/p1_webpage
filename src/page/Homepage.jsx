@@ -25,6 +25,7 @@ function Homepage() {
                 <li>JOIN</li>
                 <li>GALLERY</li>
                 <li>HELP</li>
+                <li>test</li>
 
                 
             </ul>
